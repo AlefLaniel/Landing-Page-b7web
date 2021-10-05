@@ -373,10 +373,10 @@ header .container {
 }
 
 .card-meio a:hover{
-    background-color: black;
+    background-color: #212b36;
     color: white;
     transition: all linear 0.5s;
-    border: 1px solid black;
+    border: 1px solid #212b36;
 }
 
 .card-meio .popular-botao{
@@ -490,8 +490,8 @@ header .container {
 }
 
 .formulario-contact form button:hover{
-    background-color: rgb(10, 10, 10);
-    border: 1px solid rgb(10, 10, 10);
+    background-color: #212b36;
+    border: 1px solid #212b36;
     transition: all linear 0.5s;
 }
 
