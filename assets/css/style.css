@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+:root{
+    --bg-padrao: #3056d3;
+    --white: white;
+    --font-family: 'Inter', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: var(--font-family);
+}
+
+.container{
+    padding: 0 5.64vw;
+    
+}
+
+header .container {
+    background-color: var(--bg-padrao);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    -webkit-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+
+.menu{
+    height: 11.81vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.57vh;
+}
+
+
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li{
+    padding: 0 2.56vw;
+    list-style-type: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+
+.navbar ul li a:hover{
+    color: #94a8e8;
+    transition: all linear 0.5s;
+}
+
+.navbar ul li a select{
+    border: 1px solid var(--bg-padrao);
+    background-color: var(--bg-padrao);
+    color: var(--white);
+}
+
+.acesso a{
+    padding: 15px;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.acesso .sign-in:hover{
+    color: #94a8e8;
+    transition: all linear 0.5s;
+}
+
+.acesso .sign-up{
+    background-color: #5978dc;
+    border-radius: 8px;
+}
+
+.acesso .sign-up:hover{
+    background-color: var(--white);
+    color: black;
+    transition: all linear 0.5s;
+}
+
+#home{
+    background-color: var(--bg-padrao);
+    height: 100%;
+    
+}
+
+
+
+.scroll1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 28.35vh;
+    max-width: 57.10vw;
+    margin: auto;
+    margin-bottom: 4.72vh;
+}
+
+.scroll1 h1{
+    color: var(--white);
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 4.72vh;
+    
+}
+
+.scroll1 h2{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    color: var(--white);
+    opacity: 0.8;
+    max-width: 43.92vw;
+    margin: auto;
+    margin-bottom:  7.87vh;
+}
+
+.botaos-home a{
+    padding:  3.15vh 2.20vw;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.botaos-home a:hover{
+    color: #94a8e8;
+    transition: all 0.3s ease-out 0s;
+}
+.botaos-home .download-N{
+    background-color: var(--white);
+    border-radius: 5px;
+    color: black;
+}
+
+.botaos-home .download-N:hover{
+    color: var(--bg-padrao);
+    box-shadow: 0px 0px 0px 1.5px rgba(202, 202, 202, 0.2);
+    transition: all 0.3s ease-out 0s;
+}
+
+
+
+.icons-home .brand{
+    opacity: 0.5;
+    max-width: 18.30vw;
+    margin-top: 8.66vh;
+    margin-bottom: 7.87vh;
+}
+
+.icons-home .brand:hover{
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    fill: var(--white);
+}
+
+.scroll2{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    background-color: white;
+    height: 116.24vh;
+    margin-top: -5.35vh;
+    padding: 21.57vh 6.59vw;
+}
+
+.apresentacao{
+    margin-bottom: 4.72vh;
+}
+
+.features{
+    font-size: 18px;
+    margin-bottom: 4.72vh;
+    color: var(--bg-padrao);
+    font-weight:bold;
+}
+
+.apresentacao h1,
+.informacao-pricing h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.descricao-home,
+.informacao-pricing p,
+.informacao-team p{
+    width: 45.39vw;
+    font-size: 20px;
+    line-height: 30px;
+    color: #818289;
+}
+
+.cards-home{
+    display: flex;
+    justify-content: center;
+    margin-right:  3.29vw;
+}
+.card-home{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-home img{
+    width: 6.59vw;
+    height: 14.17vh;
+    margin-bottom: 5.51vh;
+}
+
+.card-home strong{
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 1.89vh;
+}
+
+.card-home p{
+    color: #818289;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 6.30vh;
+}
+
+.card-home a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #818289;
+}
+
+.card-home a:hover{
+    color: var(--bg-padrao);
+}
+
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f4fe;
+    width: 100%;
+    height:  146.46vh;
+}
+
+#pricing,
+#team{
+    display: flex;
+    padding-top: 7.09vh;
+    padding-bottom: 20.47vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacao-pricing,
+.informacao-team{
+    text-align: center;
+    margin: 5.51vh 0;
+}
+
+
+.informacao-pricing h1,
+.informacao-pricing p,
+.princing-negrito,
+.informacao-team h1,
+.informacao-team p,
+.team-negrito
+{
+    margin-bottom: 4.72vh;
+}
+
+.informacao-pricing .princing-negrito,
+.informacao-team .team-negrito{
+    font-size: 18px;
+    color: var(--bg-padrao);
+    font-weight:bold;
+
+}
+
+
+.cards-pricing{
+    display: flex;
+    
+}
+
+.card-pricing{
+    margin-top: 18.27vh;
+    height: 81.89vh;
+    border: 2px solid #d4deff;
+    border-radius: 5px;
+    padding: 7.87vh 4.24vw;
+}
+
+.card-pricing h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 1.26vh;
+    text-transform: uppercase;
+}
+
+.card-pricing h2{
+    text-align: center;
+    color: var(--bg-padrao);
+    margin-bottom: 7.09vh;
+}
+
+.card-pricing p{
+    color: #818289;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 7.09vh;
+}
+
+.card-pricing a{
+    border-radius: 30px;
+    padding: 3.15vh 3.07vw;
+    color: var(--bg-padrao);
+    background: white;
+    border: 1px solid #d4deff;
+    text-decoration: none;
+    margin-bottom: 7.87vh;
+}
+
+.card-pricing a:hover{
+    background-color: var(--bg-padrao);
+    color: white;
+    border: 1px solid var(--bg-padrao);
+    transition: all linear 0.5s;
+}
+
+.card-pricing .canto-azul{
+    position: absolute;
+    margin-top: 2.9vh;
+    margin-left: -4.32vw;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 50px;
+    align-self: flex-start;
+    width: 4.10vw;
+    height: 8.82vh;
+    background-color: var(--bg-padrao);
+}
+
+ .card-meio{
+    border: 2px solid linear-gradient(var(--bg-padrao), #1d8ce8);
+    height: 93.23vh;
+    margin-top: 12.60vh;
+    background: linear-gradient(var(--bg-padrao), #1d8ce8);
+}
+
+.card-meio h3,
+.card-meio h2,
+.card-meio p{
+    color: white;
+}
+
+.card-meio a{
+    color: black;
+}
+
+.card-meio a:hover{
+    background-color: black;
+    color: white;
+    transition: all linear 0.5s;
+    border: 1px solid black;
+}
+
+.card-meio .popular-botao{
+    
+    border: 1px solid white;
+    background-color: white;
+    color: var(--bg-padrao);
+    border-radius: 40px;
+}
+
+.card-pricing .canto-verde{
+    position: absolute;
+    margin-top: -8.19vh;
+    margin-left: 14.13vw;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 50px;
+    align-self: flex-start;
+    width: 4.10vw;
+    height: 8.82vh;
+    background-color: #13c296;
+}
+
+#contact{
+    display: flex;
+    padding: 120px 0;
+    background: linear-gradient(to bottom, #f3f4fe, white);
+}
+
+.formulario-contact form{
+    position: absolute;
+}
+
+.localizacao-contact{
+    padding: 180px 185px 209px 100px;
+}
+
+.localizacao-contact p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.localizacao-contact h1{
+    font-size: 30px;
+    margin-bottom: 160px;
+}
+
+.localizacao,
+.email-contact{
+    display: flex;
+}
+
+.localizacao img,
+.email-contact img{
+    margin:  5px 30px;
+    margin-left: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.localizacao p,
+.email-contact p{
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #818289;
+    line-height: 20px;
+}
+
+.formulario-contact form{
+    padding: 60px 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    box-shadow: 0px 4px 28px rgb(0 0 0 / 5%);
+    border-radius: 8px;
+    left: 800px;
+}
+
+.formulario-contact form h1{
+    margin-bottom: 42px;
+}
+
+.formulario-contact form label{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.formulario-contact form input{
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    width: 300px;
+    line-height: 40px;
+    border-bottom: 1px solid #818289;
+}
+
+.formulario-contact form input[placeholder]{
+    margin-bottom: 20px;
+}
+
+.formulario-contact form button{
+    color: white;
+    font-size: 16px;
+    padding: 18px 15px;
+    width: 170px;
+    background-color: #3056d3;
+    border: 1px solid #3056d3;
+    border-radius: 5px;
+}
+
+.formulario-contact form button:hover{
+    background-color: rgb(10, 10, 10);
+    border: 1px solid rgb(10, 10, 10);
+    transition: all linear 0.5s;
+}
+
+footer{
+   background-color: #212b36;
+   background: linear-gradient(to bottom, #1b4142, #212b36);
+   padding-top: 105px;
+   padding-right: 77px;
+   padding-bottom: 44px;
+   color: white;
+}
+
+
+
+.redes-links{
+    display: flex;
+}
+
+.titulo-footer-redes{
+    margin-right: 85px;
+}
+
+.titulo-footer-redes img{
+    margin-bottom: 24px;
+}
+
+.titulo-footer-redes p{
+    margin-bottom: 40px;
+}
+
+.titulo-footer-redes svg{
+    margin-right: 20px;
+}
+
+.titulo-footer-redes svg:hover{
+    color: var(--bg-padrao);
+    transition: all linear 0.3s;
+}
+
+.links-footer{
+    display: flex;
+}
+
+.links-footer .about-us{
+    margin-right: 80px;
+}
+
+.links-footer .features-footer{
+    margin-right: 125px;
+}
+
+.links-footer p{
+    font-weight:bold;
+    margin-bottom: 47px;
+}
+
+.links-footer ul li{
+    margin-bottom: 30px;
+    list-style: none;
+    font-size: 16px;
+}
+
+.links-footer ul li:hover{
+    color: var(--bg-padrao);
+    margin-left: 5px;
+    transition: all ease 0.5s;
+}
+
+.parceiros p{
+    margin-bottom: 37px;
+}
+
+.parceiros img{
+    margin-bottom: 70px;
+}
+
+.copy{
+    display: flex;
+    border-top: 1px solid #4e5666;
+    padding-top: 40px;
+    padding-left: 0;
+}
+
+.copy p{
+    margin-right: 30px;    
+}
+
+
+.copy a{
+    text-decoration: none;
+    color: white;
+}
+
+.copy a:hover{
+    color: var(--bg-padrao);
+    transition: all linear 0.5s;
+}
