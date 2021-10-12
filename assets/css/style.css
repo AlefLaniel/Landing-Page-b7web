@@ -589,3 +589,363 @@ footer{
     color: var(--bg-padrao);
     transition: all linear 0.5s;
 }
+
+@media (max-width: 1024px) {
+    .container{
+        padding: 0 2vw;
+    }
+
+    .formulario-contact form{
+        left: 600px;
+    }
+
+    .acesso a{
+        padding: 10px;
+    }
+
+    .card-home img{
+        width: 8.59vw;
+    }
+
+    .card-home{
+        margin-right: 10px;
+    }
+
+    .card-pricing .canto-verde{
+        margin-left: 15.6vw;
+        width: 5.10vw;
+    }
+
+    .card-pricing .canto-azul{
+        width: 5.10vw;
+        margin-top: 9.2vh;
+    }
+}
+
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    
+    
+}
+
+.mm_line{
+    height: 2px;
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .scroll1 h1{
+        font-size: 25px;
+    }
+
+    .scroll1 h2{
+        font-size: 14px;
+    }
+
+    .botaos-home a{
+        font-size: 14px;
+        padding: 1.60vh 1.3vw;
+    }
+
+    .features{
+        font-size: 16px;
+    }
+
+    .apresentacao h1, .informacao-pricing h1{
+        font-size: 25px;
+    }
+
+    .cards-home{
+        width: 100%;
+    }
+
+    .card-home{
+        margin-right: 20px;
+    }
+    .card-home strong{
+        font-size: 16px;
+    }
+
+    .card-home p{
+        font-size: 14px;
+    }
+
+    .card-home a{
+        font-size: 14px;
+    }
+
+    .card-pricing{
+        height: 55%;
+    }
+
+    .card-pricing .canto-azul{
+        margin-top: 2.9vh;
+        height: 5vh;
+    }
+
+    .card-pricing .canto-verde{
+        height: 6vh;
+        margin-left: 17.6vw;
+    
+    }
+
+    .imagem-home img,
+    .image-aboute img,
+    .image-team img{
+        width: 100%;
+        height: auto;
+        padding: 0 35px;
+    }
+
+    .card-pricing h3{
+        font-size: 12px;
+    }
+
+    .card-pricing h2{
+        font-size: 14px;
+    }
+
+    .card-pricing p{
+        font-size: 10px;
+    }
+
+    .card-pricing a{
+        font-size: 14px;
+    }
+
+    .card-meio{
+        height: 60%;
+    }
+
+    .informacao-team h1{
+        font-size: 18px;
+    }
+
+    .descricao-home, .informacao-pricing p, .informacao-team p{
+        font-size: 14px;
+    }
+
+    .informacao-pricing .princing-negrito, .informacao-team .team-negrito{
+        font-size: 16px;
+    }
+
+    .localizacao-contact{
+        padding: 90px 92px 104px 35px;
+    }
+
+    .formulario-contact form{
+        padding: 30px 20px;
+        left: 400px;
+    }
+
+    .formulario-contact form h1{
+        font-size: 18px;
+    }
+
+    .formulario-contact form label{
+        font-size: 10px;
+    }
+
+    .formulario-contact form input[placeholder]{
+        font-size: 12px;
+    }
+
+    .formulario-contact form button{
+        padding: 9px 7.5px;
+        font-size: 12px;
+        width: 120px;
+    }
+
+    .localizacao-contact h1{
+        font-size: 20px;
+        margin-bottom: 100px;
+    }
+
+    .localizacao-contact p{
+        font-size: 14px;
+    }
+
+    .links-footer ul li{
+        font-size: 12px;
+    }
+
+
+    .redes-links{
+        font-size: 14px;
+    }
+
+    .copy{
+        
+        font-size: 12px;
+    }
+    .copy p{
+        margin-top: 10px;
+    }
+
+    .navbar ul{
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        opacity: 0.8;
+        padding: 5px;
+        width: 96%;
+        top: 54%;
+        border-radius: 5px;
+        display: none;
+        border: 1px solid white;
+        box-shadow: 0 2px 0 #ccc;
+    }
+
+    .navbar ul li{
+        margin-bottom: 5px;
+        background-color: white;
+    }
+
+    .navbar ul li:hover{
+        background-color: var(--bg-padrao);
+        border-radius: 2px;
+    }
+
+    .navbar ul li a{
+        color: black;
+    }
+
+    .navbar ul li a:hover{
+        color: white;
+    }
+
+    .navbar ul li a select{
+        border: 1px solid white;
+        background-color: white;
+        color: black;
+    }
+    header{
+        height: auto;
+        
+    }
+
+    .menuMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 500px){
+
+    .logo img{
+   
+        height: 40px;
+    }
+
+    .navbar ul{
+        margin-top: 10px;
+    }
+
+    .imagem-home img{
+        width: 400px;
+        height: 180px;
+        padding: 0 33px;
+    }
+
+    .icons-home .brand{
+        margin-bottom: 3.40vh;
+    }
+
+    .scroll2{
+        height: 100%;
+    }
+    .features{
+        margin-bottom: 2.72vh;
+    }
+
+    .card-home a{
+        margin-bottom: 15px
+    }
+    .cards-home{
+        flex-direction: column;
+    }
+
+    .card-home img{
+        width: 15vw;
+        height: 10.17vh;
+        margin-bottom: 2.51vh;
+    }
+    .card-home p{
+        margin-bottom: 3.15vh;
+    }
+
+    #about{
+        height: 100vh;
+    }
+
+    .card-pricing .canto-azul{
+        height: 3.5vh;
+        margin-top: 3.5vh;
+        margin-left: -2.8vw;
+    }
+
+    .card-pricing .canto-verde{
+        margin-top: -7vh;
+        height: 3.5vh;
+        margin-left: 23.2vw;
+    }
+
+    .card-pricing{
+        padding: 6.87vh 2.74vw;
+    }
+
+    .card-pricing a{
+        font-size: 12px;
+        padding: 1.15vh 2.07vw;
+    }
+
+    #contact{
+        height: 90%;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .localizacao-contact{
+        padding: 30px 32px 14px 60px;
+    }
+
+    .formulario-contact form{
+        left: 40px;
+    }
+
+    footer{
+        height: 100%;
+        margin-top: 600px;
+        padding-left: 17px;
+        padding-top: 55px;
+        flex-direction: column;
+    }
+
+    .redes-links{
+        flex-direction: column;
+    }
+
+    .titulo-footer-redes{
+        margin-right: 45px;
+    }
+
+    .redes-sociais{
+        margin-bottom: 10px;
+    }
+
+    .links-footer .about-us{
+        margin-right: 40px;
+    }
+
+    .links-footer .features-footer{
+        margin-right: 75px;
+    }
+
+    .parceiros img{
+        width: 90%;
+    }
+}
